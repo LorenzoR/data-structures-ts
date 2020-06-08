@@ -32,5 +32,3 @@ export class Queue<T> {
         return this.size;
     }
 }
-
-export default Queue;

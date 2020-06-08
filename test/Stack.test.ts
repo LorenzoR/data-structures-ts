@@ -1,4 +1,4 @@
-import Stack from '../src/stack/Stack';
+import { Stack } from '../src';
 
 describe('stack', () => {
     it('can create stack', async () => {

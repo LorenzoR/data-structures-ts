@@ -1,4 +1,4 @@
-import Queue from '../src/queue/Queue';
+import { Queue } from '../src';
 
 describe('queue', () => {
     it('can create queue', async () => {

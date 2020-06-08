@@ -1,4 +1,4 @@
-import LinkedList from '../src/linkedList/LinkedList';
+import { LinkedList } from '../src';
 
 describe('linked list', () => {
     it('can create linked list', async () => {
