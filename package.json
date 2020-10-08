@@ -14,7 +14,8 @@
     "build": "npm run build-ts && npm run lint",
     "build-ts": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "coveralls": "npm run test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "coveralls": "npm run test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "debug-test": "node --inspect-brk=9230 ./node_modules/.bin/jest --ci --forceExit --detectOpenHandles"
   },
   "author": "Lorenzo Rodrigo <lrodrigo@gmail.com>",
   "license": "MIT",
